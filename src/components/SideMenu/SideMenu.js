@@ -10,7 +10,13 @@ import "./SideMenu.css";
 
 const SideMenu = (props) => {
     let Breaktime=getitem();
+
+   
     const[breaktime,setBreaktime]=useState(Breaktime);
+    if(Breaktime===0)
+    {
+      setBreaktime(Breaktime)
+    }
 
 
     const breaktimeset=(time)=>{
