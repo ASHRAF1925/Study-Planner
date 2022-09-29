@@ -17,7 +17,7 @@ const Subject = (props) => {
 
   return (
     <div className="mx-2 mt-4 img-back rounded">
-      <div className="card card-style img-back p-3" >
+      <div className="card card-style img-back p-2" >
         <img src={image}className="card-img-top img-height  rounded" alt="..." />
         <div className="card-body">
           <h2 className="card-title">{title}</h2>

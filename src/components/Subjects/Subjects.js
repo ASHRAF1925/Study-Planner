@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SideMenu from '../SideMenu/SideMenu';
 import Subject from '../Subject/Subject';
 import './Subjects.css'
 
@@ -11,21 +12,22 @@ const Subjects = () => {
         .then(data => setSubjects(data))
     },[])
 
+  const [total,setTotal]=useState(0)
     
   const AddtoListClick=(subject)=>{
 
-  Total_time=Total_time+subject.time;
-    console.log(Total_time)
-    setTotal(Total_time)
+const new_total=total+subject.time;
+
+    setTotal(new_total)
   }
-  const [total,setTotal]=useState(0)
+
 
     return (
         <div className="container text-center mt-5">
         <div className="row">
-          <div className="col-lg-10 col-sm-12 subjects ">
+          <div className="col-lg-9 col-sm-12 subjects ">
       
-        <div className="row p-3 ">
+        <div className="row  ">
           
             {
                 subjects.map(subject =><Subject key={subject.id} subject={subject} AddtoListClick={AddtoListClick}></Subject>)
@@ -36,8 +38,9 @@ const Subjects = () => {
         </div>
       
           </div>
-          <div className="col-lg-2 side-menu ">
-            Total time={total}
+          <div className="col-lg-3 side-menu ">
+   
+            <SideMenu totaltime={total}></SideMenu>
           </div>
       
         </div>
