@@ -1,0 +1,16 @@
+.card-style{
+    width: 18rem;
+    height: 100%;
+   
+}
+.img-height{
+    height: 200px;
+
+  
+}
+ .img-back{
+    background-image: url("/public/images/backgrounds/card_background.png");
+    background-size:cover ;
+   
+   
+} 

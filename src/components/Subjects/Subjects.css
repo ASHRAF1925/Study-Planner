@@ -1,3 +1,4 @@
-/* .subjects{
-    background-image: url('../../images/backgrounds/website_background-transformed.jpeg');
-} */
+.subjects{
+    background-image: url('/public/images/backgrounds/website_background-transformed.jpeg');
+    background-repeat: repeat;
+}
