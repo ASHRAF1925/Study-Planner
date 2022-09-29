@@ -27,7 +27,7 @@ const Subject = (props) => {
           <h5>Credit : {Credit}</h5>
           <h4>Time : {time} minute</h4>
 
-          <button className="btn btn-primary" onClick={AddtoListClick}>Add to List</button>
+          <button className="btn btn-primary" onClick={()=>AddtoListClick(props.subject)}>Add to List</button>
        
         </div>
       </div>

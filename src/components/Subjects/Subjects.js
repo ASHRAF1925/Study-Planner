@@ -3,6 +3,7 @@ import Subject from '../Subject/Subject';
 import './Subjects.css'
 
 const Subjects = () => {
+    let Total_time=0;
     const [subjects,setSubjects]=useState([]);
     useEffect(()=>{
         fetch('Subjects.json')
@@ -11,9 +12,13 @@ const Subjects = () => {
     },[])
 
     
-  const AddtoListClick=()=>{
-    console.log('clicked')
+  const AddtoListClick=(subject)=>{
+
+  Total_time=Total_time+subject.time;
+    console.log(Total_time)
+    setTotal(Total_time)
   }
+  const [total,setTotal]=useState(0)
 
     return (
         <div className="container text-center mt-5">
@@ -32,7 +37,7 @@ const Subjects = () => {
       
           </div>
           <div className="col-lg-2 side-menu ">
-            Side menu
+            Total time={total}
           </div>
       
         </div>
