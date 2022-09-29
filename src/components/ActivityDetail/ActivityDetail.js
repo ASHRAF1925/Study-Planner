@@ -16,7 +16,7 @@ const ActivityDetail = (props) => {
             <br />
           
             <h3>Study Time :{totaltime} min</h3>
-            <h3>Break Time :{breaktime} </h3>
+            <h3>Break Time :{breaktime} min </h3>
             <br />
             <br />
             <button onClick={notify} className='btn btn-primary'>Study Completed</button>
