@@ -1,6 +1,12 @@
 import React from 'react';
 
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const ActivityDetail = (props) => {
+    const notify=()=>toast.success("hwllo",{position:"top-center"});
     const {totaltime, breaktime}=props;
     return (
         <div className='text-white'>
@@ -13,7 +19,9 @@ const ActivityDetail = (props) => {
             <h3>Break Time :{breaktime} </h3>
             <br />
             <br />
-            <button className='btn btn-primary'>Study Completed</button>
+            <button onClick={notify} className='btn btn-primary'>Study Completed</button>
+            <ToastContainer></ToastContainer>
+          
         </div>
     );
 };
