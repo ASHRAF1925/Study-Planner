@@ -2,3 +2,6 @@
     background-image: url('/public/images/backgrounds/website_background-transformed.jpeg');
     background-repeat: repeat;
 }
+.side-menu {
+    background-image: url('/public/images/backgrounds/side_menu.png');
+}

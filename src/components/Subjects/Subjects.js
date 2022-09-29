@@ -10,15 +10,20 @@ const Subjects = () => {
         .then(data => setSubjects(data))
     },[])
 
+    
+  const AddtoListClick=()=>{
+    console.log('clicked')
+  }
+
     return (
         <div className="container text-center mt-5">
         <div className="row">
-          <div className="col-lg-10 subjects bg-info">
+          <div className="col-lg-10 col-sm-12 subjects ">
       
         <div className="row p-3 ">
           
             {
-                subjects.map(subject =><Subject key={subject.id} subject={subject}></Subject>)
+                subjects.map(subject =><Subject key={subject.id} subject={subject} AddtoListClick={AddtoListClick}></Subject>)
             }
          
           
@@ -26,7 +31,7 @@ const Subjects = () => {
         </div>
       
           </div>
-          <div className="col-lg-2 ">
+          <div className="col-lg-2 side-menu ">
             Side menu
           </div>
       
