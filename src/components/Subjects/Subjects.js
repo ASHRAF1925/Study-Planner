@@ -23,9 +23,9 @@ const new_total=total+subject.time;
 
 
     return (
-        <div className="container text-center mt-5">
+        <div className="container text-center mt-5 ">
         <div className="row">
-          <div className="col-lg-9 col-sm-12 subjects ">
+          <div className="col-lg-9 col-sm-12 subjects pb-4 ">
       
         <div className="row  ">
           

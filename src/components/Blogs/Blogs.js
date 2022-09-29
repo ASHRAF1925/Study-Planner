@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='img-back container'>
+        <div className='img-back container mt-3 p-4 h4 '>
             <h2>1.How Does React Work ?</h2>
             <br />
             <h3>Answer</h3>
