@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const ActivityDetail = (props) => {
-    const notify=()=>toast.success("hwllo",{position:"top-center"});
+    const notify=()=>toast.success("Congratulations.You have Completed the Plan Successfully!",{position:"top-center"});
     const {totaltime, breaktime}=props;
     return (
         <div className='text-white'>
