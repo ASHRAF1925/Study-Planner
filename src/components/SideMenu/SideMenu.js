@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import { additem, getitem } from "../../Utilities/databasefunctions";
 import ActivityDetail from "../ActivityDetail/ActivityDetail";
 import "./SideMenu.css";
 
+
+
+
+
+
 const SideMenu = (props) => {
+    let Breaktime=getitem();
+    const[breaktime,setBreaktime]=useState(Breaktime);
+
+
+    const breaktimeset=(time)=>{
+        Breaktime=time;
+        additem(Breaktime);
+      
+        setBreaktime(Breaktime);
+       
+    }
+
   return (
     <div>
       <img
         src="/images/Batman.jpg"
-        class="rounded-circle  image-size"
+        className="rounded-circle  image-size"
         alt=""
       ></img>
       <h3 className="text-white">MD.Ashraful Islam</h3>
@@ -20,26 +38,26 @@ const SideMenu = (props) => {
       <h2 className="text-white">Add A Break</h2>
 
       <div
-        class="btn-group"
+        className="btn-group"
         role="group"
         aria-label="Basic mixed styles example"
       >
-        <button type="button" className="btn btn-danger">
+        <button onClick={()=>breaktimeset(1)} type="button" className="btn btn-danger">
           1 min
         </button>
-        <button type="button" className="btn btn-warning">
+        <button onClick={()=>breaktimeset(2)} type="button" className="btn btn-warning">
           2 min
         </button>
-        <button type="button" className="btn btn-info">
+        <button onClick={()=>breaktimeset(3)} type="button" className="btn btn-info">
           3 min
         </button>
 
-        <button type="button" className="btn btn-success">
+        <button onClick={()=>breaktimeset(5)} type="button" className="btn btn-success">
           5 min
         </button>
       </div>
 
-      <ActivityDetail totaltime={props.totaltime}></ActivityDetail>
+      <ActivityDetail totaltime={props.totaltime} breaktime={breaktime}></ActivityDetail>
     </div>
   );
 };

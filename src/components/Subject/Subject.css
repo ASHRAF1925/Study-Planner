@@ -5,6 +5,7 @@
 }
 .img-height{
     height: 200px;
+    border-radius: 50px;
 
   
 }
@@ -14,3 +15,7 @@
    
    
 } 
+.title{
+    height: 100px;
+
+}

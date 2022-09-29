@@ -20,7 +20,7 @@ const Subject = (props) => {
       <div className="card card-style img-back p-2" >
         <img src={image}className="card-img-top img-height  rounded" alt="..." />
         <div className="card-body">
-          <h2 className="card-title">{title}</h2>
+          <h2 className="card-title title">{title}</h2>
           <p className="card-text">
         {info}
           </p>

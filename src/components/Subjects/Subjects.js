@@ -38,9 +38,9 @@ const new_total=total+subject.time;
         </div>
       
           </div>
-          <div className="col-lg-3 side-menu ">
+          <div className="col-lg-3 side-menu p-3 pb-5">
    
-            <SideMenu totaltime={total}></SideMenu>
+            <SideMenu totaltime={total} ></SideMenu>
           </div>
       
         </div>
