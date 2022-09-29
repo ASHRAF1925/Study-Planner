@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
     <Header></Header>
+    <h2 className='text-primary'>Select Your Sttudy Plan</h2>
     <Subjects></Subjects>
     </div>
   );
