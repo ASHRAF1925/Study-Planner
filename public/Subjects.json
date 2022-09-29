@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial intelligence",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 30,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\ai.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Machine learning",
+    "description": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.",
+    "Credit": 3,
+    "Study time": 40,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\machine_learning.png"
+  },
+  {
+    "id": 3,
+    "title": "Algorithm",
+    "description": "An algorithm is simply a set of steps used to complete a specific task. They're the building blocks for programming, and they allow things like computers, smartphones, and websites to function and make decisions. In addition to being used by technology, a lot of things we do on a daily basis are similar to algorithms.",
+    "Credit": 3,
+    "Study time": 50,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\algorithm.png"
+  },
+  {
+    "id": 4,
+    "title": "Digital image processing",
+    "description": "Digital image processing is the use of a digital computer to process digital images through an algorithm.[1][2] As a subcategory or field of digital signal processing, digital image processing has many advantages over analog image processing. It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build-up of noise and distortion during processing. Since images are defined over two dimensions (perhaps more) digital image processing may be modeled in the form of multidimensional systems. The generation and development of digital image processing are mainly affected by three factors: first, the development of computers; second, the development of mathematics (especially the creation and improvement of discrete mathematics theory); third, the demand for a wide range of applications in environment, agriculture, military, industry and medical science has increased.",
+    "Credit": 3,
+    "Study time": 20,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\dip.png"
+  },
+  {
+    "id": 5,
+    "title": "Data structure",
+    "description": "In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,[4] i.e., it is an algebraic structure about data.",
+    "Credit": 3,
+    "Study time": 35,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\datastructure.png"
+  },
+  {
+    "id": 6,
+    "title": "Data mining",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 25,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\data-mining-definition-750x431.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Artificial intelligence",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 30,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\ai.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Machine learning",
+    "description": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.",
+    "Credit": 8,
+    "Study time": 40,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\machine_learning.png"
+  },
+  {
+    "id": 9,
+    "title": "Algorithm",
+    "description": "An algorithm is simply a set of steps used to complete a specific task. They're the building blocks for programming, and they allow things like computers, smartphones, and websites to function and make decisions. In addition to being used by technology, a lot of things we do on a daily basis are similar to algorithms.",
+    "Credit": 3,
+    "Study time": 50,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\algorithm.png"
+  },
+  {
+    "id": 10,
+    "title": "Digital image processing",
+    "description": "Digital image processing is the use of a digital computer to process digital images through an algorithm.[1][2] As a subcategory or field of digital signal processing, digital image processing has many advantages over analog image processing. It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build-up of noise and distortion during processing. Since images are defined over two dimensions (perhaps more) digital image processing may be modeled in the form of multidimensional systems. The generation and development of digital image processing are mainly affected by three factors: first, the development of computers; second, the development of mathematics (especially the creation and improvement of discrete mathematics theory); third, the demand for a wide range of applications in environment, agriculture, military, industry and medical science has increased.",
+    "Credit": 3,
+    "Study time": 20,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\dip.png"
+  },
+  {
+    "id": 11,
+    "title": "Data structure",
+    "description": "In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,[4] i.e., it is an algebraic structure about data.",
+    "Credit": 3,
+    "Study time": 35,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\datastructure.png"
+  },
+  {
+    "id": 12,
+    "title": "Data mining",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 25,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\data-mining-definition-750x431.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Artificial intelligence",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 30,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\ai.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Machine learning",
+    "description": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.",
+    "Credit": 3,
+    "Study time": 40,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\machine_learning.png"
+  },
+  {
+    "id": 15,
+    "title": "Algorithm",
+    "description": "An algorithm is simply a set of steps used to complete a specific task. They're the building blocks for programming, and they allow things like computers, smartphones, and websites to function and make decisions. In addition to being used by technology, a lot of things we do on a daily basis are similar to algorithms.",
+    "Credit": 3,
+    "Study time": 50,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\algorithm.png"
+  },
+  {
+    "id": 16,
+    "title": "Digital image processing",
+    "description": "Digital image processing is the use of a digital computer to process digital images through an algorithm.[1][2] As a subcategory or field of digital signal processing, digital image processing has many advantages over analog image processing. It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build-up of noise and distortion during processing. Since images are defined over two dimensions (perhaps more) digital image processing may be modeled in the form of multidimensional systems. The generation and development of digital image processing are mainly affected by three factors: first, the development of computers; second, the development of mathematics (especially the creation and improvement of discrete mathematics theory); third, the demand for a wide range of applications in environment, agriculture, military, industry and medical science has increased.",
+    "Credit": 3,
+    "Study time": 20,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\dip.png"
+  },
+  {
+    "id": 17,
+    "title": "Data structure",
+    "description": "In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,[4] i.e., it is an algebraic structure about data.",
+    "Credit": 3,
+    "Study time": 35,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\datastructure.png"
+  },
+  {
+    "id": 18,
+    "title": "Data mining",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 25,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\data-mining-definition-750x431.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Artificial intelligence",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 30,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\ai.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Machine learning",
+    "description": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.",
+    "Credit": 3,
+    "Study time": 40,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\machine_learning.png"
+  },
+  {
+    "id": 21,
+    "title": "Algorithm",
+    "description": "An algorithm is simply a set of steps used to complete a specific task. They're the building blocks for programming, and they allow things like computers, smartphones, and websites to function and make decisions. In addition to being used by technology, a lot of things we do on a daily basis are similar to algorithms.",
+    "Credit": 3,
+    "Study time": 50,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\algorithm.png"
+  },
+  {
+    "id": 22,
+    "title": "Digital image processing",
+    "description": "Digital image processing is the use of a digital computer to process digital images through an algorithm.[1][2] As a subcategory or field of digital signal processing, digital image processing has many advantages over analog image processing. It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build-up of noise and distortion during processing. Since images are defined over two dimensions (perhaps more) digital image processing may be modeled in the form of multidimensional systems. The generation and development of digital image processing are mainly affected by three factors: first, the development of computers; second, the development of mathematics (especially the creation and improvement of discrete mathematics theory); third, the demand for a wide range of applications in environment, agriculture, military, industry and medical science has increased.",
+    "Credit": 23,
+    "Study time": 20,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\dip.png"
+  },
+  {
+    "id": 5,
+    "title": "Data structure",
+    "description": "In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data,[4] i.e., it is an algebraic structure about data.",
+    "Credit": 3,
+    "Study time": 35,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\datastructure.png"
+  },
+  {
+    "id": 24,
+    "title": "Data mining",
+    "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals",
+    "Credit": 3,
+    "Study time": 25,
+    "image": "E:\\0.Web development\\Programing Hero\\Milestone-8\\Module-50 Assignment\\Assignment8\\assignment8-studyy-planner\\public\\images\\subjects\\data-mining-definition-750x431.jpg"
+  }
+]
